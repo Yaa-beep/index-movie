@@ -1,0 +1,58 @@
+/* 調整整體文字字型和大小 */
+body {
+  background-color: rgb(29, 29, 16);
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* 預設文字大小 */
+  line-height: 1.6; /* 行高 */
+}
+
+.image-container {
+  display: flex;  /* 使用 Flexbox 使圖片並排 */
+  justify-content: space-between;  /* 使圖片之間有適當間距 */
+  gap: 20px; /* 控制圖片間距 */
+  padding: 20px;
+}
+
+.image {
+  width: 30%;  /* 每張圖片佔容器寬度的 30%，使其並排 */
+  height: auto; /* 保持圖片的比例 */
+  object-fit: cover;  /* 確保圖片的內容填滿容器 */
+  border-radius: 8px; /* 可以選擇為圖片添加圓角 */
+}
+
+/* 大標題樣式 */
+h1 {
+  background-color: #364966;
+  color: rgb(241, 240, 240);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0; /* 去除可能的外邊距，確保居中 */
+}
+
+/* 次標題樣式 */
+h2 {
+  font-size: 28px;
+  font-weight: bold; /* 修正為正確的字體加粗屬性 */
+  color: aliceblue; /* 設置顏色，否則默認為黑色 */
+}
+
+/* 段落文字樣式 */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #da9898; /* 提高可讀性，將顏色改為淺色 */
+}
+
+/* 表單中的標籤 */
+label {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* 下拉選單文字樣式 */
+.dropdown-item {
+  background-color: #583525;
+  font-size: 16px;
+  color: #ffffff;
+}

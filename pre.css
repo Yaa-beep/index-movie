@@ -1,0 +1,58 @@
+ /* 設定頁面背景和字型 */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+}
+
+/* 預告片容器，使用 flexbox 排列影片 */
+.movie-trailers {
+    display: flex;
+    justify-content: space-around; /* 在水平方向均勻分佈 */
+    gap: 20px; /* 影片之間的間距 */
+    flex-wrap: wrap; /* 當螢幕尺寸較小時換行 */
+    padding: 20px;
+}
+
+/* 影片預告片容器 */
+.movie-trailer {
+    width: 100%; /* 預設寬度 100% */
+    max-width: 400px; /* 最大寬度 400px */
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 設定影片的外觀 */
+.movie-trailer iframe {
+    width: 150%; /* 讓 iframe 充滿容器 */
+    height: 225px; /* 設定影片高度 */
+}
+
+/* 設定影片的連結樣式 */
+.movie-trailer a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* 影片連結的 hover 效果 */
+.movie-trailer a:hover {
+    background-color: #555;
+}
+/* 大標題樣式 */
+h1 {
+    background-color: #786d58;          /* 背景色 */
+    color: rgb(241, 240, 240);          /* 文字顏色 */
+    font-size: 50px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    text-align: center;                  /* 文字居中 */
+    margin: 0;                           /* 去除外邊距 */
+}

@@ -1,0 +1,88 @@
+/* 文字樣式 */
+.description-text {
+    font-size: 18px;           /* 字體大小 */
+    font-weight: bold;         /* 字體加粗 */
+    color: #da9898;            /* 設定文字顏色 */
+    line-height: 1.6;          /* 行高，增強可讀性 */
+    max-width: 600px;          /* 設定文字最大寬度，避免文字過長 */
+}
+
+/* 圖片和文字的容器樣式 */
+.movie-description {
+    display: flex;             /* 使用 flexbox 來並排顯示圖片和文字 */
+    align-items: flex-start;   /* 使圖片和文字頂端對齊 */
+    justify-content: flex-start; /* 確保圖片和文字從左邊開始 */
+    gap: 20px;                 /* 文字和圖片之間的間距 */
+    margin-bottom: 40px;       /* 每個 section 之間的垂直間距 */
+}
+
+/* 圖片樣式 */
+.movie-description img {
+    max-width: 200px;           /* 設定圖片最大寬度 */
+    height: auto;               /* 保持圖片比例 */
+    margin-bottom: 0;           /* 圖片底部的間距 */
+}
+
+/* 全局樣式 */
+body {
+    background-color: rgb(20, 20, 14);  /* 設定背景色 */
+    font-family: Arial, sans-serif;     /* 設定字型 */
+    font-size: 16px;                    /* 預設文字大小 */
+    line-height: 1.6;                   /* 行高 */
+}
+
+/* 大標題樣式 */
+h1 {
+    background-color: #335865;          /* 背景色 */
+    color: rgb(241, 240, 240);          /* 文字顏色 */
+    font-size: 50px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    text-align: center;                  /* 文字居中 */
+    margin: 0;                           /* 去除外邊距 */
+}
+
+/* 次標題樣式 */
+h2 {
+    font-size: 28px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    color: aliceblue;                    /* 設定顏色 */
+    margin-top: 20px;                    /* 調整圖片和 h2 之間的間距 */
+    margin-bottom: 40px;                 /* 可選，調整 h2 下方的間距 */
+}
+
+/* h3 標題樣式 */
+h3 {
+    font-size: 28px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    color: aliceblue;                    /* 設定顏色 */
+    margin-top: 60px;                    /* 調整圖片和 h3 之間的間距 */
+    margin-bottom: 40px;                 /* 可選，調整 h3 下方的間距 */
+}
+
+/* h4 標題樣式 */
+h4 {
+    font-size: 28px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    color: aliceblue;                    /* 設定顏色 */
+    margin-top: 40px;                    /* 調整圖片和 h4 之間的間距 */
+    margin-bottom: 40px;                 /* 可選，調整 h4 下方的間距 */
+}
+
+/* h5 標題樣式 */
+h5 {
+    font-size: 28px;                     /* 字體大小 */
+    font-weight: bold;                   /* 字體加粗 */
+    color: aliceblue;                    /* 設定顏色 */
+    margin-top: 40px;                    /* 調整圖片和 h5 之間的間距 */
+    margin-bottom: 40px;                 /* 可選，調整 h5 下方的間距 */
+}
+
+/* 段落文字樣式 */
+p {
+    font-size: 18px;       /* 字體大小 */
+    font-weight: bold;     /* 字體加粗 */
+    color: #da9898;        /* 文字顏色 */
+    display: inline-block; /* 使段落顯示在同一行 */
+    vertical-align: top;   /* 垂直對齊，根據需要可以調整為 middle、bottom 等 */
+    margin-left: 20px;     /* 調整文字與圖片的間距 */
+}
